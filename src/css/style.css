@@ -6,6 +6,19 @@
 }
 
 
+
+.imagem {
+	width: 100vw;
+	height: 100vh;
+	object-fit: cover;
+	display: none;
+}
+
+.imagem.ativa {
+	display: block;
+	animation: mudarImagem 0.7s;
+}
+
 main:after {
 	content: "";
 	min-height: 100vh;
