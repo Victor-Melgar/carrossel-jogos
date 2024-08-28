@@ -5,6 +5,7 @@
     color: white;
 }
 
+
 main:after {
 	content: "";
 	min-height: 100vh;
